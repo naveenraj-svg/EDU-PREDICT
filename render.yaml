@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: edupredict-pro
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /api/student/STU001
+    envVars:
+      - key: NODE_ENV
+        value: production

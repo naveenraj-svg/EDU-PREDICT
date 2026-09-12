@@ -1,0 +1,6 @@
+{
+  "name": "EduPredict Pro: Smart Student Management",
+  "description": "An intelligent student management system featuring ML-based performance prediction, risk analysis, resume management, and interactive faculty/student dashboards.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
