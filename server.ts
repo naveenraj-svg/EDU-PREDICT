@@ -2,7 +2,7 @@ import express from "express";
 import { createServer as createViteServer } from "vite";
 import Database from "better-sqlite3";
 import { GoogleGenAI, Type } from "@google/genai";
-import { 
+import type {
   StudentProfile, 
   PredictionResult, 
   PerformanceLevel, 
